@@ -19,6 +19,16 @@
       "intent": {
         "name": "actions.intent.TEXT"
       }
+    },
+    {
+      "description": "signin intent",
+      "name": "SIGNIN",
+      "fulfillment": {
+        "conversationName": "myWebhook"
+      },
+      "intent": {
+        "name": "actions.intent.SIGN_IN"
+      }
     }
   ],
   "conversations": {
